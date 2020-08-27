@@ -15,7 +15,7 @@ class Pokemon
     SQL
     
     db.exeute(sql, name, type)
-    #this time dont need the @id or :conn
+    
   end 
   
   def self.find(id, db)
